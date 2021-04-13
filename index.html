@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ZuriTraining Home page</title>
-</head>
-<body>
-    <header class="header">
-        <nav class="nav-bar">
-            <img src="./zuri-i4g-logo.jpeg" alt="#" srcset="">
-            <ul class="nav-items">
-                <li>Home</li>
-                <li>Track</li>
-                <li>About Us</li>
-                <li>Contact Us</li>
-            </ul>
-            <div id="drop-down">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="navbar">
+      <div class="container flex">
+        <h1 class="logo">Zuri Training.</h1>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Track</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li>
+              <a href="#"><button class="btn sign-up">Sign Up</button></a>
+            </li>
+          </ul>
+          <!-- form -->
+          <!-- <div id="drop-down">
                 <span> <button>Sign up</button></span>
                 <div>
                     <form action="" method="get">
@@ -63,34 +70,61 @@
                         <span class="log-in">Already have an account? <a href="#">Sign in</a></span>
                     </form>
                 </div>
-            </div>
+            </div> -->
         </nav>
-    </header>
-
-    <div class="main-text">
-        <h2 class="top-text">Taking your <span class="coloured-text">Tech</span> journey to <br> the next level</h2>
-        <p class="body-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et lectus molestie, sollicitudin diam at, porttitor nisl. Etiam turpis ipsum, eleifend vel iaculis ac, interdum at enim. Mauris at convallis odio. Etiam malesuada diam quis enim luctus convallis. Fusce sit amet aliquet nibh. Nam tincidunt diam lacus, vitae sodales elit pretium at. Sed turpis purus, sodales non ligula et, gravida sodales sem. Vestibulum viverra mollis tristique. Nam tellus nulla, pharetra vel rhoncus vitae, vulputate pretium metus.</p>
-        <button class="2nd-btn">Register</button>
+      </div>
     </div>
 
-    <section class="section-tab">
-        <article class="tab-item1" >
-            <i><img src="./home-icon-img.png" alt="" srcset=""></i>
-            <h5 class="item-head1">Fully Remote</h5>
-            <p class="head-body1">ulla facilisi. Vivamus interdum eros vel leo tristique egestas. Aliquam viverra mattis dui, vitae consectetur augue malesuada eget. Curabitur posuere vulputate eros, sed elementum elit. Donec at ante dignissim, gravida urna ac, rhoncus mi. Aliquam vitae sapien sit amet mi vulputate rhoncus</p>
-        </article>
-
-        <articlen class="tab-item2" >
-            <i><img src="./work-icon.png" alt=""></i>
-            <h5 class="item-head2">Hands on experience</h5>
-            <p class="head-body2">ulla facilisi. Vivamus interdum eros vel leo tristique egestas. Aliquam viverra mattis dui, vitae consectetur augue malesuada eget. Curabitur posuere vulputate eros, sed elementum elit. Donec at ante dignissim, gravida urna ac, rhoncus mi. Aliquam vitae sapien sit amet mi vulputate rhoncus</p>
-        </article>
-
-        <article class="tab-item3" >
-            <i><img src="./people-icon.png" alt=""></i>
-            <h5 class="item-head3">Collaborative lerning</h5>
-            <p class="head-body3">ulla facilisi. Vivamus interdum eros vel leo tristique egestas. Aliquam viverra mattis dui, vitae consectetur augue malesuada eget. Curabitur posuere vulputate eros, sed elementum elit. Donec at ante dignissim, gravida urna ac, rhoncus mi. Aliquam vitae sapien sit amet mi vulputate rhoncus</p>
-        </article>
+    <!-- Showcase -->
+    <section class="showcase">
+      <div class="grid">
+        <div class="showacase-text">
+          <h1>
+            Taking your <span class="span">Tech</span> journey to <br />
+            the next level
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
+            fugiat! Fuga corrupti accusantium ipsam quas cupiditate tenetur
+            dolores obcaecati a.
+          </p>
+          <a href="features.html" class="btn register">REGISTER NOW</a>
+        </div>
+      </div>
     </section>
-</body>
+
+    <section class="section-tab">
+      <div class="grid grid-3 text-center my-4">
+        <article class="tab-item1">
+          <i><img src="./home-icon-img.png" alt="" srcset="" /></i>
+          <h5 class="item-head1">Fully Remote</h5>
+          <p class="head-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+            officia veritatis ipsum quia incidunt non nam optio quam blanditiis
+            at!
+          </p>
+        </article>
+
+        <article class="tab-item2">
+          <i><img src="./work-icon.png" alt="" /></i>
+          <h5 class="item-head2">Hands on experience</h5>
+          <p class="head-body">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
+            quaerat sunt iste fugiat tempora animi deleniti rem magni suscipit
+            natus.
+          </p>
+        </article>
+
+        <article class="tab-item3">
+          <i><img src="./people-icon.png" alt="" /></i>
+          <h5 class="item-head3">Collaborative lerning</h5>
+          <p class="head-body">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae,
+            adipisci sed? Sint beatae rem accusantium numquam hic ab natus
+            culpa?
+          </p>
+        </article>
+      </div>
+    </section>
+  </body>
 </html>
